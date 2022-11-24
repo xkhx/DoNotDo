@@ -1,0 +1,16 @@
+name: DoNotDo
+version: "${version}"
+main: me.xiaox.donotdo.DoNotDo
+api-version: 1.13
+authors:
+  - D_xiaox
+  - 404E
+commands:
+  donotdo:
+    description: 插件主命令
+    aliases:
+      - dnd
+permissions:
+  donotdo.admin:
+    default: op
+    description: 允许使用插件指令

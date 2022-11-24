@@ -1,0 +1,18 @@
+# 配置不要做的事件
+
+# 移动(不包括视线)
+move: true
+# 移动视线
+move_eye: true
+# 跳跃
+jump: true
+# 潜行
+sneak: true
+# 踩在指定的方块上
+stand_on:
+  - STONE
+  - SAND
+# 接触到水
+water: true
+# 受到伤害
+damage: true
